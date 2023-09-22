@@ -1,0 +1,36 @@
+.gradient-background {
+    background: linear-gradient(300deg, #5fdf10, hsl(131, 92%, 46%), #2c84c8);
+    background-size: 180% 180%;
+    animation: gradient-animation 6s ease infinite;
+    height: 500px;
+  }
+
+  .custom-button {
+    background: linear-gradient(to bottom, #ff0000, #ff3333);
+    color: white;
+    border: none; /* Optionally remove the button border for a cleaner look */
+}
+
+  .container{
+  margin-bottom: 0px;
+  }
+  .nav-link{
+    color: white;
+    
+  }
+  .headingtext{
+    margin-top: 0px;
+    margin-bottom: 400px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
